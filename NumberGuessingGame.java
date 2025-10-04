@@ -26,9 +26,9 @@ public class NumberGuessingGame {
             attempts++;// Increasing the number of attempts by 1 each time
 // if-else-if Statement
             if (guess < guessnumber) {
-                System.out.println("⬇ Too LOW! Try a higher number.\n");
+                System.out.println(" Too LOW! Try a higher number.\n");
             } else if (guess > guessnumber) {
-                System.out.println("⬆ Too HIGH! Try a lower number.\n");
+                System.out.println(" Too HIGH! Try a lower number.\n");
             } else {
                 System.out.println(" Congratulations, Shaiza! You guessed it right!");
                 System.out.println("The secret number was: " + guessnumber);
